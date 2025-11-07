@@ -1,0 +1,41 @@
+# Training data (too large for git)
+train/original/*.tif
+train/original/*.tiff
+train/starless/*.tif
+train/starless/*.tiff
+
+# Model weights and checkpoints
+*.h5
+*.pkl
+starnet_backup_*
+weights_*.h5
+history_*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Conda
+*.tar.bz2
+
+# Downloaded archives
+*.zip
+
+# Environment
+.env
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
